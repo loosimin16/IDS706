@@ -1,6 +1,6 @@
-import math
-
 """Main function"""
+
+import math
 
 
 def add(num1, num2):

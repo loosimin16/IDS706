@@ -4,9 +4,9 @@ install:
 format:
 	black *.py
 
-#checks python files
+#checks python files to make sure they are industry stnadrad
 lint:
-	pylint --disable=R, C --ignore-patterns = test_.*?py *.py
+	pylint --ignore-patterns=test_.*?py *.py
 
 test:
 	python -m pytest -cov=main test_main.py
