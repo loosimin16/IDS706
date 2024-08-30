@@ -1,5 +1,8 @@
 import math
 
+"""Main function"""
 
-def add(x, y):
-    return math.ceil(x) + math.floor(y)
+
+def add(num1, num2):
+    """add function"""
+    return math.ceil(num1) + math.floor(num2)
